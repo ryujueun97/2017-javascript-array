@@ -1,11 +1,20 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <script type="text/javascript">
         function calculate(arr) {
-          var result = 0;
-          // TODO : 여기에 여러분이 직접 코딩을 해주세요.       
-          return result;
+         if( arr[1] = '+' )
+{result = arr[0] + arr[2];
+return result;}
+
+if( arr[1] = '-' )
+{result = arr[0] - arr[2];
+return result;}
+         
+else if( arr[1] = '*' )
+{result = arr[0] * arr[2];	// 각자 하나씩은 돌아가는데 3개를 같이 놓으면 하나밖에 pass가 안떠요..
+return result;}
+
         }
 
         expect(calculate([1, '+', 2]), 3);
